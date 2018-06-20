@@ -2,4 +2,4 @@
 source_root_dir = "/home/kamerider/catkin_ws/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/home/kamerider/kobuki/devel;/home/kamerider/rocon/devel;/opt/ros/kinetic".split(';') if "/home/kamerider/kobuki/devel;/home/kamerider/rocon/devel;/opt/ros/kinetic" != "" else []
+underlay_workspaces = "/home/kamerider/catkin_ws/devel;/home/kamerider/kobuki/devel;/home/kamerider/rocon/devel;/opt/ros/kinetic".split(';') if "/home/kamerider/catkin_ws/devel;/home/kamerider/kobuki/devel;/home/kamerider/rocon/devel;/opt/ros/kinetic" != "" else []

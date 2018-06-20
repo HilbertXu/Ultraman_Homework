@@ -7,7 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/kamerider/catkin_ws/devel:$CMAKE_PREFIX_PATH"
 export PWD="/home/kamerider/catkin_ws/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/kamerider/catkin_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/kamerider/catkin_ws/src:$ROS_PACKAGE_PATH"
+export ROS_PACKAGE_PATH="/home/kamerider/catkin_ws/src:/home/kamerider/kobuki/src:/home/kamerider/rocon/src:/opt/ros/kinetic/share"

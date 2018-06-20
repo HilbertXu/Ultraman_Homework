@@ -1,2 +1,2 @@
-
+machine_vision:navigation:socket:speech
 -DCATKIN_DEVEL_PREFIX=/home/kamerider/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kamerider/catkin_ws/install -G Unix Makefiles

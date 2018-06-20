@@ -117,6 +117,10 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/kamerider/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/kamerider/catkin_ws/build/socket/cmake_install.cmake")
+  include("/home/kamerider/catkin_ws/build/speech/cmake_install.cmake")
+  include("/home/kamerider/catkin_ws/build/navigation/cmake_install.cmake")
+  include("/home/kamerider/catkin_ws/build/machine_vision/cmake_install.cmake")
 
 endif()
 
