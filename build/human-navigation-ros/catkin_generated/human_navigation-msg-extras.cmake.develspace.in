@@ -1,0 +1,2 @@
+set(human_navigation_MESSAGE_FILES "/home/kamerider/catkin_ws/src/human-navigation-ros/msg/HumanNaviObjectInfo.msg;/home/kamerider/catkin_ws/src/human-navigation-ros/msg/HumanNaviTaskInfo.msg;/home/kamerider/catkin_ws/src/human-navigation-ros/msg/HumanNaviMsg.msg;/home/kamerider/catkin_ws/src/human-navigation-ros/msg/HumanNaviGuidanceMsg.msg;/home/kamerider/catkin_ws/src/human-navigation-ros/msg/HumanNaviAvatarPose.msg")
+set(human_navigation_SERVICE_FILES "")

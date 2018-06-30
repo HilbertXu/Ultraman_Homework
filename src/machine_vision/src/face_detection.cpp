@@ -47,7 +47,7 @@ ros::Publisher move_pub;
 ros::Publisher sp_pub; //向语音节点发布消息，提醒人们要拍照了
 
 //TOPIC NAME
-const std::string RECEIVE_IMG_TOPIC_NAME="/camera/rgb/image_raw";
+const std::string RECEIVE_IMG_TOPIC_NAME="/usb_cam/image_raw";
 const std::string PUBLISH_RET_TOPIC_NAME="/ifFinish";
 std_msgs::String photo_signal;
 bool flag = true;//正式使用应改为false
@@ -60,7 +60,7 @@ string window_name = "camera";
 int count1=1;
 string DataBase="/home/kamerider/catkin_ws/src/machine_vision/DataBase/";
 const int IMAGE_SIZE=64;
-string NAME="HOST";
+string NAME=" ";
 
 string int2str( int val )  
 {  
@@ -145,7 +145,7 @@ void detectAndDisplay(Mat frame)
 }
 void nameCallback(const std_msgs::String::ConstPtr& msg)
 {
-	NAME ="HOST"; //暂时默认来客姓名是JACK
+	NAME = msg->data; //暂时默认来客姓名是JACK
 }
 
 void speechCallback(const std_msgs::String::ConstPtr& msg)
@@ -159,7 +159,7 @@ void speechCallback(const std_msgs::String::ConstPtr& msg)
 
 void imgCallback(const sensor_msgs::ImageConstPtr& msg)
 {
-	if(flag == true)
+	if(flag == true && NAME != " ")
 	{
 		ROS_INFO("IMAGE RECEIVED");
 		std_msgs::String signal;

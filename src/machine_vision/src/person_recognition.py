@@ -15,7 +15,7 @@ from cv_bridge import CvBridge, CvBridgeError
 import numpy as np 
 
 MODEL_PATH = '/home/kamerider/catkin_ws/src/machine_vision/model/keras_model.h5'
-SENSOR_TOPIC = '/camera/rgb/image_raw'
+SENSOR_TOPIC = '/usb_cam/image_raw'
 cascade_path = '/home/kamerider/catkin_ws/src/machine_vision/haarcascade_frontalface_alt.xml'
 IMAGE_SAVE_PATH = '/home/kamerider/catkin_ws/src/machine_vision/result.jpg'
 
@@ -37,7 +37,7 @@ class Recognition:
         self.bridge = CvBridge()
 
         #订阅传感器话题的订阅器 
-        self.img_sub = rospy.Subscriber("/camera/rgb/image_raw",Image,self.imageCallback)
+        self.img_sub = rospy.Subscriber("/usb_cam/image_raw",Image,self.imageCallback)
         #向语音节点发布消息的发布器
         self.sp_pub = rospy.Publisher('/img2speech',String,queue_size=1)
         rospy.loginfo("Waiting for image topics...")

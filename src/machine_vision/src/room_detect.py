@@ -15,7 +15,7 @@ from cv_bridge import CvBridge, CvBridgeError
 import numpy as np 
 
 MODEL_PATH = '/home/kamerider/catkin_ws/src/machine_vision/model/keras_model.h5'
-SENSOR_TOPIC = '/camera/rgb/image_raw'
+SENSOR_TOPIC = '/usb_cam/image_raw'
 cascade_path = '/home/kamerider/catkin_ws/src/machine_vision/haarcascade_frontalface_alt.xml'
 IMAGE_SAVE_PATH = '/home/kamerider/catkin_ws/src/machine_vision/result.jpg'
 IMAGE_PATH = '/home/kamerider/catkin_ws/src/machine_vision/'

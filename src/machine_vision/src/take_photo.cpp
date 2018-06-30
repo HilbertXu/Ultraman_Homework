@@ -25,16 +25,17 @@ using namespace cv;
 using namespace std;
 
 const std::string PUBLISH_RET_TOPIC_NAME = "/take_photo";
-const std::string RECEIVE_IMG_TOPIC_NAME = "/camera/rgb/image_raw";
+const std::string RECEIVE_IMG_TOPIC_NAME = "/usb_cam/image_raw";
 
 //订阅传感器话题以获取图像信息
 image_transport::Subscriber img_sub;
 ros::Subscriber nav_sub;
 ros::Publisher gPublisher;
 ros::Subscriber room_name;
+ros::Publisher nav_pub;
 
 
-string name;
+string name=" ";
 bool nav_flag=false;
 int count1=0;
 
@@ -43,16 +44,18 @@ void navCallback(const std_msgs::String::ConstPtr& msg)
 	if(msg->data == "arrived")
 	{
 		nav_flag = true;
+		cout<<"arrived";
 	}
 }
 void nameCallback(const std_msgs::String::ConstPtr& msg)
 {
 	name=msg->data;
+	cout<<msg->data;
 }
 
 void imgCallback(const sensor_msgs::ImageConstPtr& msg)
 {
-	if(nav_flag == true)
+	if(nav_flag == true && name != " ")
 	{
 		count1++;
 		cout<<name;
@@ -69,8 +72,9 @@ void imgCallback(const sensor_msgs::ImageConstPtr& msg)
 	  	if(count1==10)
 	  	{
 			cout<<count1;
-			nav_sub.shutdown();
-			img_sub.shutdown();
+			count1=0;
+			nav_flag = false;
+			name = " ";
 			gPublisher.publish(info);
 	  	}
 	}
@@ -88,7 +92,7 @@ int main(int argc, char **argv)
 	nav_sub = nh.subscribe("/nav2img",1,navCallback);
 	gPublisher = nh.advertise<std_msgs::String>(PUBLISH_RET_TOPIC_NAME, 1);
 	room_name=nh.subscribe("/room_name",1,nameCallback);
-
+    nav_pub = nh.advertise<std_msgs::String>("/img2nav",1);
 
 	image_transport::ImageTransport it(nh);
 	img_sub = it.subscribe(RECEIVE_IMG_TOPIC_NAME,1 , imgCallback);
