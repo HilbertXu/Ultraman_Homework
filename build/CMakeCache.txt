@@ -401,34 +401,34 @@ gtest_force_shared_crt:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
 //Value Computed by CMake
-handyman_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/handyman-ros
+handyman_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/Simulation-interactive_clean up/handyman-ros
 
 //Value Computed by CMake
-handyman_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/handyman-ros
+handyman_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/Simulation-interactive_clean up/handyman-ros
 
 //Value Computed by CMake
-human_navigation_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/human-navigation-ros
+human_navigation_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/Simulation-interactive_clean up/human-navigation-ros
 
 //Value Computed by CMake
-human_navigation_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/human-navigation-ros
+human_navigation_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/Simulation-interactive_clean up/human-navigation-ros
 
 //The directory containing a CMake configuration file for image_transport.
 image_transport_DIR:PATH=/opt/ros/kinetic/share/image_transport/cmake
 
 //Value Computed by CMake
-interactive_cleanup_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/interactive-cleanup-ros
+interactive_cleanup_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/simulation-interactive_clean up/interactive-cleanup-ros
 
 //Value Computed by CMake
-interactive_cleanup_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/interactive-cleanup-ros
+interactive_cleanup_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/simulation-interactive_clean up/interactive-cleanup-ros
 
 //Path to a library.
 lib:FILEPATH=/opt/ros/kinetic/lib/libcamera_calibration_parsers.so
 
 //Value Computed by CMake
-machine_vision_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/machine_vision
+machine_vision_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/Robot-Software-Enginering/machine_vision
 
 //Value Computed by CMake
-machine_vision_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/machine_vision
+machine_vision_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/Robot-Software-Enginering/machine_vision
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/kinetic/share/message_filters/cmake
@@ -443,10 +443,10 @@ message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
 move_base_msgs_DIR:PATH=/opt/ros/kinetic/share/move_base_msgs/cmake
 
 //Value Computed by CMake
-navigation_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/navigation
+navigation_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/Robot-Software-Enginering/navigation
 
 //Value Computed by CMake
-navigation_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/navigation
+navigation_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/Robot-Software-Enginering/navigation
 
 //The directory containing a CMake configuration file for nodelet.
 nodelet_DIR:PATH=/opt/ros/kinetic/share/nodelet/cmake
@@ -509,43 +509,43 @@ rostime_DIR:PATH=/opt/ros/kinetic/share/rostime/cmake
 sensor_msgs_DIR:PATH=/opt/ros/kinetic/share/sensor_msgs/cmake
 
 //Value Computed by CMake
-sigverse_ros_bridge_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/sigverse_ros_package/sigverse_ros_bridge
+sigverse_ros_bridge_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/simulation-interactive_clean up/sigverse_ros_package/sigverse_ros_bridge
 
 //Value Computed by CMake
-sigverse_ros_bridge_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/sigverse_ros_package/sigverse_ros_bridge
+sigverse_ros_bridge_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/simulation-interactive_clean up/sigverse_ros_package/sigverse_ros_bridge
 
 //Value Computed by CMake
-sigverse_turtlebot2_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/sigverse_ros_package/samples/turtlebot2
+sigverse_turtlebot2_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/simulation-interactive_clean up/sigverse_ros_package/samples/turtlebot2
 
 //Value Computed by CMake
-sigverse_turtlebot2_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/sigverse_ros_package/samples/turtlebot2
+sigverse_turtlebot2_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/simulation-interactive_clean up/sigverse_ros_package/samples/turtlebot2
 
 //Value Computed by CMake
-sigverse_turtlebot3_laser_distance_sensor_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/sigverse_ros_package/samples/turtlebot3/laser_distance_sensor
+sigverse_turtlebot3_laser_distance_sensor_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/simulation-interactive_clean up/sigverse_ros_package/samples/turtlebot3/laser_distance_sensor
 
 //Value Computed by CMake
-sigverse_turtlebot3_laser_distance_sensor_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/sigverse_ros_package/samples/turtlebot3/laser_distance_sensor
+sigverse_turtlebot3_laser_distance_sensor_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/simulation-interactive_clean up/sigverse_ros_package/samples/turtlebot3/laser_distance_sensor
 
 //Value Computed by CMake
-sigverse_turtlebot3_open_manipulator_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/sigverse_ros_package/samples/turtlebot3/open_manipulator_chain
+sigverse_turtlebot3_open_manipulator_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/simulation-interactive_clean up/sigverse_ros_package/samples/turtlebot3/open_manipulator_chain
 
 //Value Computed by CMake
-sigverse_turtlebot3_open_manipulator_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/sigverse_ros_package/samples/turtlebot3/open_manipulator_chain
+sigverse_turtlebot3_open_manipulator_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/simulation-interactive_clean up/sigverse_ros_package/samples/turtlebot3/open_manipulator_chain
 
 //The directory containing a CMake configuration file for smclib.
 smclib_DIR:PATH=/opt/ros/kinetic/share/smclib/cmake
 
 //Value Computed by CMake
-socket_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/socket
+socket_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/Robot-Software-Enginering/socket
 
 //Value Computed by CMake
-socket_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/socket
+socket_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/Robot-Software-Enginering/socket
 
 //Value Computed by CMake
-speech_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/speech
+speech_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/Robot-Software-Enginering/speech
 
 //Value Computed by CMake
-speech_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/speech
+speech_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/Robot-Software-Enginering/speech
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
@@ -575,13 +575,13 @@ topic_tools_DIR:PATH=/opt/ros/kinetic/share/topic_tools/cmake
 trajectory_msgs_DIR:PATH=/opt/ros/kinetic/share/trajectory_msgs/cmake
 
 //Value Computed by CMake
-usb_cam_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/usb_cam
+usb_cam_BINARY_DIR:STATIC=/home/kamerider/catkin_ws/build/Robot-Software-Enginering/usb_cam
 
 //Dependencies for the target
 usb_cam_LIB_DEPENDS:STATIC=general;avcodec-ffmpeg;general;swscale-ffmpeg;general;/opt/ros/kinetic/lib/libimage_transport.so;general;/opt/ros/kinetic/lib/libmessage_filters.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/opt/ros/kinetic/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/kinetic/lib/libroslib.so;general;/opt/ros/kinetic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython2.7.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/kinetic/lib/libcamera_info_manager.so;general;/opt/ros/kinetic/lib/libcamera_calibration_parsers.so;general;/opt/ros/kinetic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/opt/ros/kinetic/lib/librosconsole.so;general;/opt/ros/kinetic/lib/librosconsole_log4cxx.so;general;/opt/ros/kinetic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/kinetic/lib/libxmlrpcpp.so;general;/opt/ros/kinetic/lib/libroscpp_serialization.so;general;/opt/ros/kinetic/lib/librostime.so;general;/opt/ros/kinetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;
 
 //Value Computed by CMake
-usb_cam_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/usb_cam
+usb_cam_SOURCE_DIR:STATIC=/home/kamerider/catkin_ws/src/Robot-Software-Enginering/usb_cam
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/kinetic/share/xmlrpcpp/cmake
@@ -716,7 +716,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
